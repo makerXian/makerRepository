@@ -19,7 +19,7 @@ public class ContentServiceImpl implements ContentService {
 	
 	@Override
 	public ContentDO get(Long cid){
-		System.out.println("123");
+		System.out.println("1234");
 		return bContentMapper.get(cid);
 	}
 	
